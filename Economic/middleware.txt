@@ -1,0 +1,3 @@
+Laravel Middleware?
+Middleware cung cấp 1 cơ chế thuận tiện để lọc các yeu cầu HTTP được đưa vào ứng dụng
+
