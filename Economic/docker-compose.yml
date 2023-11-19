@@ -31,6 +31,7 @@ services:
             - mysql
         ports:
             - 8088:8000
+            - 5173:5173
         environment:
             APP_DEBUG: 'true'
             XDEBUG_MODE: coverage

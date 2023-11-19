@@ -32,9 +32,12 @@ RUN apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-g
 RUN apt-get install -y curl
 RUN apt-get install -y php-cli unzip
 
+RUN apt-get install -y nodejs
+# RUN apt-get install -y npm
+
 RUN curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 RUN php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-RUN apt-get install -y default-mysql-client
+# RUN apt-get install -y default-mysql-client
 
 RUN apt-get install -y php-xdebug
 RUN apt-get install -y php-codecoverage
